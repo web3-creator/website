@@ -48,7 +48,7 @@ export default function RootLayout({
           backgroundPositionY: "-90px",
         }}
       >
-        <ThemeProvider>{children}</ThemeProvider>
+        <ThemeProvider defaultTheme="light">{children}</ThemeProvider>
       </body>
     </html>
   );
