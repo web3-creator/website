@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #dddddd;
+  --background-radial: #cccccc;
+  --foreground: #222222;
+}
+
+[data-theme="dark"] {
+  --background: #222222;
+  --background-radial: #333333;
+  --foreground: #dddddd;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--font-ubuntu);
+}
