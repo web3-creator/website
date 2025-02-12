@@ -2,10 +2,11 @@ import Head from "next/head";
 import { Header } from "./components/layout/Header";
 import { LogoYieldz } from "./components/icons/logo-yieldz";
 import { LogoWeb3 } from "./components/icons/logo-web3";
+import { Footer } from "./components/layout/Footer";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[30px_1fr_30px] items-center justify-items-center min-h-screen p-4 gap-16 sm:p-8">
+    <div className="grid grid-rows-[30px_1fr_auto] items-center justify-items-center min-h-screen p-4 gap-16 sm:p-8">
       <Header />
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
         <div>
@@ -40,9 +41,7 @@ export default function Home() {
           </div>
         </div>
       </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        &copy; 2025 web3creator.xyz
-      </footer>
+      <Footer />
     </div>
   );
 }
