@@ -2,20 +2,22 @@ import type { Metadata } from "next";
 import { ThemeProvider } from "next-themes";
 import { Special_Elite, Ubuntu, Ubuntu_Mono } from "next/font/google";
 import "./globals.css";
-import Head from "next/head";
 
 const specialElite = Special_Elite({
   variable: "--font-special-elite",
+  subsets: ["latin"],
   weight: "400",
 });
 
 const ubuntu = Ubuntu({
   variable: "--font-ubuntu",
+  subsets: ["latin"],
   weight: "400",
 });
 
 const ubuntuMono = Ubuntu_Mono({
   variable: "--font-ubuntu-mono",
+  subsets: ["latin"],
   weight: "400",
 });
 

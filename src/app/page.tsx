@@ -1,8 +1,7 @@
-import Head from "next/head";
-import { Header } from "./components/layout/Header";
-import { LogoYieldz } from "./components/icons/logo-yieldz";
 import { LogoWeb3 } from "./components/icons/logo-web3";
+import { LogoYieldz } from "./components/icons/logo-yieldz";
 import { Footer } from "./components/layout/Footer";
+import { Header } from "./components/layout/Header";
 
 export default function Home() {
   return (
