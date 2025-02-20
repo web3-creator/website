@@ -8,7 +8,7 @@ export default function Home() {
     <div className="grid grid-rows-[30px_1fr_auto] items-center justify-items-center min-h-screen p-4 gap-16 sm:p-8">
       <Header />
       <main className="flex flex-col gap-10 row-start-2 items-center sm:items-start">
-        <div>
+        <div className="mx-auto">
           <LogoWeb3 />
         </div>
         <span className="mx-auto">builder of</span>
