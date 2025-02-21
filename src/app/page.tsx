@@ -51,8 +51,8 @@ export default function Home() {
               Terms of Service
             </a> */}
             <span>Documentation</span>
-            <span>Privacy Policy</span>
-            <span>Terms of Service</span>
+            {/* <span>Privacy Policy</span>
+            <span>Terms of Service</span> */}
           </div>
         </div>
       </main>
