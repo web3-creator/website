@@ -39,20 +39,13 @@ export default function Home() {
             >
               Litepaper
             </a>
-          </div>
-          <div className="flex flex-row gap-2">
-            {/* <a href="#" className="underline hover:no-underline">
+            <a
+              href="https://yieldzcc.gitbook.io/docs"
+              target="_blank"
+              className="underline hover:no-underline"
+            >
               Documentation
             </a>
-            <a href="#" className="underline hover:no-underline">
-              Privacy Policy
-            </a>
-            <a href="#" className="underline hover:no-underline">
-              Terms of Service
-            </a> */}
-            <span>Documentation</span>
-            {/* <span>Privacy Policy</span>
-            <span>Terms of Service</span> */}
           </div>
         </div>
       </main>
