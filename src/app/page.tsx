@@ -24,7 +24,7 @@ export default function Home() {
           </div>
           <div className="flex flex-row gap-2">
             <a
-              href="/yieldz/whitepaper.pdf"
+              href="https://docs.google.com/document/d/e/2PACX-1vReIw44i4gKlp8I-Y1zHxZB-ttHurSZuuKu8x1Kzqfx7poGIioy_N0mx9-cQID6GWwHaFt3ZXt3S0Bb/pub"
               target="_blank"
               referrerPolicy="same-origin"
               className="underline hover:no-underline"
@@ -32,7 +32,7 @@ export default function Home() {
               Whitepaper
             </a>
             <a
-              href="/yieldz/litepaper.pdf"
+              href="https://docs.google.com/document/d/e/2PACX-1vSOqdo-hP0jRuNrcHxBglzwOEzp0j8NTwz75AyfZ3kZMhaceCcn0WN9Okw28ARGQV-Etn86GTuOkxSw/pub"
               target="_blank"
               referrerPolicy="same-origin"
               className="underline hover:no-underline"
